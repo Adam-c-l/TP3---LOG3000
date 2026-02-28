@@ -22,7 +22,7 @@ Portée : Application pour calculs simples sans stockage de données persistante
 
 2. Installer les dépendances :
 
-   pip install flask
+   pip install flask pytest beautifulsoup4
 
 
 3. Lancer l'application :
@@ -42,6 +42,13 @@ Fonctionnalités :
 
 ## Tests
 
+### Prérequis pour les tests
+- pytest
+- beautifulsoup4
+
+### Étapes pour exécuter les tests
+1. Assurez-vous que l'environnement virtuel est activé.
+2. Exécutez : python -m pytest
 
 ## Flux de contribution
 - Utiliser Git pour le contrôle de version.
