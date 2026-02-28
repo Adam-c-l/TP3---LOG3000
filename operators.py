@@ -41,7 +41,7 @@ def multiply(a, b):
     Returns:
         float: a élevé à la puissance de b.
     """
-    return a ** b
+    return a * b
 
 
 def divide(a, b):
