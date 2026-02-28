@@ -55,4 +55,4 @@ def divide(a, b):
     Returns:
         int: Le quotient de a divisé par b (division entière).
     """
-    return a // b
+    return round(a / b, 1)
